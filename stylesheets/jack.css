@@ -1,0 +1,253 @@
+.j-hair{
+  position: absolute;
+  top: -2%;
+  left: 16%;
+  width: 9em;
+  height: 8em;
+}
+.j-h1{
+  position: absolute;
+  top: 15%;
+  left: 29.5%;
+  width: 2em;
+  height: 2em;
+  clip-path: polygon(50% 0%, 20% 100%, 80% 100%);
+  background: linear-gradient(#a3966d, #474130);
+  z-index: 2;
+}
+.j-h2{
+  position: absolute;
+  top: 15%;
+  left: 36%;
+  width: 2em;
+  height: 2em;
+  clip-path: polygon(50% 0%, 20% 100%, 80% 100%);
+  background: linear-gradient(#a3966d, #474130);
+  z-index: 2;
+}
+.j-h3{
+  position: absolute;
+  top: 15%;
+  left: 43%;
+  width: 2em;
+  height: 2em;
+  clip-path: polygon(50% 0%, 20% 100%, 80% 100%);
+  background: linear-gradient(#a3966d, #474130);
+  z-index: 2;
+}
+.j-h4{
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  width: 2em;
+  height: 2em;
+  clip-path: polygon(50% 0%, 20% 100%, 80% 100%);
+  background: linear-gradient(#a3966d, #474130);
+  z-index: 2;
+}
+.j-head{
+  position: absolute;
+  top: 5%;
+  left: 35%;
+  width: 4em;
+  height: 4.5em;
+  background: #e6c7b8;
+  border-radius: 70%;
+  z-index: auto;
+}
+.jl-eye{
+  position: absolute;
+  top: 35%;
+  left: 13%;
+  height: 0.75em;
+  width: 1.25em;
+  border: 3px solid black;
+  border-radius: 50%;
+  border-bottom: none;
+  border-right: none;
+  border-left: none;
+  z-index: 2;
+}
+.jr-eye{
+  position: absolute;
+  top: 35%;
+  right: 13%;
+  height: 0.75em;
+  width: 1.25em;
+  border: 3px solid black;
+  border-radius: 50%;
+  border-bottom: none;
+  border-right: none;
+  border-left: none;
+  z-index: 2;
+}
+.j-mouth{
+  
+}
+.j-body{
+  position: absolute;
+  bottom: 5%;
+  right: 31%;
+  width: 15%;
+  height: 85%;
+}
+.j-body-stick{
+  position: absolute;
+  height: 10em;
+  width: 1.75em;
+  top: 17%;
+  left: 43.5%;
+  background: #e6c7b8;
+  z-index: auto;
+}
+.jl-arm-upper{
+  position: absolute;
+  height: 6em;
+  width: 1.25em;
+  top: 25%;
+  left: 30%;
+  background: #e6c7b8;
+  transform-origin: top left;
+  transform: rotate(40deg);
+  z-index: auto;
+  border-bottom-right-radius: 60%;
+}
+.jl-arm-lower{
+  position: absolute;
+  height: 4.25em;
+  width: 1em;
+  top: 25.5%;
+  left: 0%;
+  background: #e6c7b8;
+  transform-origin: bottom right;
+  transform: rotate(-60deg);
+  z-index: auto;
+  border-radius: 35% 35% 0% 60%;
+}
+.jr-arm-upper{
+  position: absolute;
+  height: 6em;
+  width: 1.25em;
+  top: 25%;
+  right: 30%;
+  background: #e6c7b8;
+  transform-origin: top right;
+  transform: rotate(-35deg);
+  z-index: auto;
+  border-bottom-left-radius: 60%;
+}
+.jr-arm-lower{
+  position: absolute;
+  height: 4.25em;
+  width: 1em;
+  top: 27%;
+  right: 2%;
+  background: #e6c7b8;
+  transform-origin: bottom left;
+  transform: rotate(45deg);
+  z-index: auto;
+  border-radius: 35% 35% 60% 0%;
+}
+.jl-hand{
+  position: absolute;
+  top: 30%;
+  left: -29%;
+  width: 1.75em;
+  height: 1.5em;
+  background: #e6c7b8;
+  border-radius: 50%;
+}
+.jr-hand{
+  position: absolute;
+  top: 27.5%;
+  right: -22%;
+  width: 1.75em;
+  height: 1.75em;
+  background: #e6c7b8;
+  border-radius: 50%;
+}
+.jr-thumb{
+  position: absolute;
+  top: 25%;
+  right: -12%;
+  width: 0.5em;
+  height: 1.5em;
+  background: #e6c7b8;
+  border-radius: 70%;
+}
+.j-shirt{
+  position: absolute;
+  top: 22%;
+  right: 31.5%;
+  height: 10em;
+  width: 5em;
+  background: #576b61;
+  border-radius: 25% 25% 0 0;
+  z-index: 3;
+}
+.jl-shirt-sleeve{
+  position: absolute;
+  top: 22%;
+  left: 23%;
+  height: 4em;
+  width: 2.5em;
+  background: #576b61;
+  border-radius: 40% 40% 0 0;
+  transform: rotate(45deg);
+  z-index: 3;
+}
+.jr-shirt-sleeve{
+  position: absolute;
+  top: 22%;
+  right: 23%;
+  height: 4em;
+  width: 2.5em;
+  background: #576b61;
+  border-radius: 40% 40% 0 0;
+  transform: rotate(-45deg);
+  z-index: 3;
+}
+.jl-pant{
+  position: absolute;
+  bottom: 4%;
+  left: 29%;
+  width: 4.5em;
+  height: 18em;
+  clip-path: polygon(20% 0, 80% 0, 70% 100%, 30% 100%);
+  background: #242a2b;
+  transform-origin: top left;
+  transform: rotate(8deg);
+  z-index: 2;
+}
+.jr-pant{
+  position: absolute;
+  bottom: 4%;
+  right: 29%;
+  width: 4.5em;
+  height: 18em;
+  clip-path: polygon(20% 0, 80% 0, 70% 100%, 30% 100%);
+  background: #242a2b;
+  transform-origin: top right;
+  transform: rotate(-8deg);
+  z-index: 2;
+}
+.jl-foot{
+  position: absolute;
+  bottom: 0%;
+  left: 15%;
+  width: 2.25em;
+  height: 1em;
+  background: #737373;
+  border: 3px solid black;
+  border-radius: 40%;
+}
+.jr-foot{
+  position: absolute;
+  bottom: 0%;
+  right: 15%;
+  width: 2.25em;
+  height: 1em;
+  background: #737373;
+  border: 3px solid black;
+  border-radius: 40%;
+}
