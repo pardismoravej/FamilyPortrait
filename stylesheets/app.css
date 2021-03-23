@@ -1,0 +1,13 @@
+body{
+  font-size: 10px;
+}
+.canvas {
+  background: linear-gradient(white, #ffc9db);
+  border: 4mm ridge #78472a;
+  position: relative;
+  margin: auto;
+  display: block;
+  width: 90em;
+  height: 40em;
+  z-index: auto;
+}
