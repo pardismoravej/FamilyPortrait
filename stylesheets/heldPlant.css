@@ -1,0 +1,51 @@
+.held-plant{
+  position: absolute;
+  top: 15%;
+  left: 42%;
+  height: 40%;
+  width: 15%;
+}
+.hp-pot{
+  position: absolute;
+  bottom: 30%;
+  right: 39%;
+  width: 4em;
+  height: 2.75em;
+  clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
+  background: #692d02;
+  transform: rotate(180deg);
+  border-bottom: 13px solid #572501;
+  z-index: 2;
+}
+.hp-leaf1{
+  position: absolute;
+  bottom: 54%;
+  right: 55%;
+  width: 2em;
+  height: 3em;
+  clip-path: polygon(50% 0%, 10% 100%, 90% 100%);
+  background: linear-gradient(#064015, #9bb58f);
+  transform: rotate(-10deg);
+  z-index: auto;
+}
+.hp-leaf2{
+  position: absolute;
+  bottom: 54%;
+  right: 46.5%;
+  width: 2em;
+  height: 3em;
+  clip-path: polygon(50% 0%, 10% 100%, 90% 100%);
+  background: linear-gradient(#064015, #9bb58f);
+  z-index: auto;
+}
+.hp-leaf3{
+  position: absolute;
+  bottom: 54%;
+  left: 47.5%;
+  width: 2em;
+  height: 3em;
+  clip-path: polygon(50% 0%, 10% 100%, 90% 100%);
+  background: linear-gradient(#064015, #9bb58f);
+  transform: rotate(10deg);
+  z-index: auto;
+}
