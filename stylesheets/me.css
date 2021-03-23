@@ -1,0 +1,245 @@
+.p-hair{
+  position: absolute;
+  top: -2%;
+  left: 16%;
+  width: 9em;
+  height: 8em;
+}
+.p-h1{
+  position: absolute;
+  top: 17%;
+  left: 9%;
+  width: 3.5em;
+  height: 5.75em;
+  background: #381c03;
+  border-radius: 70% 50% 20% 20%;
+}
+.p-h2{
+  position: absolute;
+  top: 14%;
+  right: 10%;
+  width: 5.5em;
+  height: 6em;
+  background: #381c03;
+  border-radius: 50% 60% 15% 20%;
+}
+.p-head{
+  position: absolute;
+  top: 5%;
+  left: 35%;
+  width: 4em;
+  height: 4.5em;
+  background: #dec19b;
+  border-radius: 70%;
+  z-index: auto;
+}
+.pl-eye{
+  position: absolute;
+  top: 30%;
+  left: 13%;
+  height: 0.75em;
+  width: 1.25em;
+  border: 3px solid black;
+  border-radius: 50%;
+  border-bottom: none;
+  border-right: none;
+  border-left: none;
+  z-index: 2;
+}
+.pr-eye{
+  position: absolute;
+  top: 30%;
+  right: 13%;
+  height: 0.75em;
+  width: 1.25em;
+  border: 3px solid black;
+  border-radius: 50%;
+  border-bottom: none;
+  border-right: none;
+  border-left: none;
+  z-index: 2;
+}
+.p-mouth{
+  
+}
+.p-body{
+  position: absolute;
+  bottom: 5%;
+  left: 31%;
+  width: 15%;
+  height: 75%;
+}
+.p-body-stick{
+  position: absolute;
+  height: 10em;
+  width: 1.25em;
+  top: 18%;
+  left: 45%;
+  background: #dec19b;
+  z-index: auto;
+}
+.pl-arm-upper{
+  position: absolute;
+  height: 5.5em;
+  width: 0.75em;
+  top: 27%;
+  left: 36%;
+  background: #dec19b;
+  transform-origin: top left;
+  transform: rotate(45deg);
+  z-index: auto;
+  border-bottom-right-radius: 60%;
+}
+.pl-arm-lower{
+  position: absolute;
+  height: 3.75em;
+  width: 0.65em;
+  top: 28%;
+  left: 5.5%;
+  background: #dec19b;
+  transform-origin: bottom left;
+  transform: rotate(-7deg);
+  z-index: auto;
+  border-radius: 50% 50% 0% 60%;
+}
+.pr-arm-upper{
+  position: absolute;
+  height: 5.5em;
+  width: 0.75em;
+  top: 27%;
+  right: 36%;
+  background: #dec19b;
+  transform-origin: top right;
+  transform: rotate(-45deg);
+  z-index: auto;
+  border-bottom-left-radius: 60%;
+}
+.pr-arm-lower{
+  position: absolute;
+  height: 3.75em;
+  width: 0.65em;
+  top: 28.5%;
+  right: 7.5%;
+  background: #dec19b;
+  transform-origin: bottom right;
+  transform: rotate(45deg);
+  z-index: auto;
+  border-radius: 50% 50% 60% 0%;
+}
+.pl-hand{
+  position: absolute;
+  top: 24%;
+  left: -1%;
+  width: 1.5em;
+  height: 1.5em;
+  background: #dec19b;
+  border-radius: 50%;
+}
+.pr-hand{
+  position: absolute;
+  top: 28.5%;
+  right: -18%;
+  width: 1.5em;
+  height: 1.25em;
+  background: #dec19b;
+  border-radius: 50%;
+}
+.pl-finger1{
+  position: absolute;
+  top: 19%;
+  left: 1%;
+  width: 0.4em;
+  height: 1.75em;
+  background: #dec19b;
+  border-radius: 70%;
+  transform: rotate(-15deg);
+}
+.pl-finger2{
+  position: absolute;
+  top: 19%;
+  left: 6%;
+  width: 0.4em;
+  height: 1.75em;
+  background: #dec19b;
+  border-radius: 70%;
+  transform: rotate(15deg);
+}
+.p-shirt{
+  position: absolute;
+  top: 24%;
+  right: 35%;
+  height: 5.75em;
+  width: 4em;
+  background: white;
+  border-radius: 25% 25% 0 0;
+}
+.pl-pant{
+  position: absolute;
+  bottom: 4%;
+  left: 32%;
+  width: 3.5em;
+  height: 15em;
+  clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0 100%);
+  background: #99c4cc;
+  transform-origin: top left;
+  transform: rotate(10deg);
+  z-index: 2;
+}
+.pl-pant-hole{
+  position: absolute;
+  bottom: 24%;
+  left: 24.5%;
+  width: 2.5em;
+  height: 1em;
+  background: #dec19b;
+  transform: rotate(10deg);
+  border: 1px solid white;
+  border-radius: 30% 10%;
+  z-index: 3;
+}
+.pr-pant{
+  position: absolute;
+  bottom: 4%;
+  right: 32%;
+  width: 3.5em;
+  height: 15em;
+  clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0 100%);
+  background: #99c4cc;
+  transform-origin: top right;
+  transform: rotate(-10deg);
+  z-index: 2;
+}
+.pr-pant-hole{
+  position: absolute;
+  bottom: 24%;
+  right: 24.5%;
+  width: 2.5em;
+  height: 1em;
+  background: #dec19b;
+  transform: rotate(-10deg);
+  border: 1px solid white;
+  border-radius: 10% 30%;
+  z-index: 3;
+}
+.pl-foot{
+  position: absolute;
+  bottom: 0%;
+  left: 15%;
+  width: 2.25em;
+  height: 1em;
+  background: white;
+  border: 3px solid #3b2311;
+  border-radius: 40%;
+  z-index: auto;
+}
+.pr-foot{
+  position: absolute;
+  bottom: 0%;
+  right: 15%;
+  width: 2.25em;
+  height: 1em;
+  background: white;
+  border: 3px solid #3b2311;
+  border-radius: 40%;
+  z-index: auto;
+}
